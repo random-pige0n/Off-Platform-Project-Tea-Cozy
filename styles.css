@@ -1,0 +1,111 @@
+/* universal styles */
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 22px;
+   color: seashell;
+   background-color: black;
+   text-align: center;
+   opacity: 0.9;
+}
+
+/* header styles */
+header{
+   display: flex;
+   height: 69px;
+   margin: 10px 10px 0 10px;
+   justify-content: space-between;  
+   border-bottom: 1px solid seashell;
+}
+header img{
+   height: 50px;
+}
+nav{
+   display: flex;
+   gap: 20px;
+   text-decoration: underline;
+}
+
+/* main styles */
+/* hero section style */
+.hero{
+   height: 700px;
+   width: 1200px;
+   background-image: url(resources/img-mission-background.webp);
+   text-align: center;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+}
+.banner{
+   background-color: black;
+   width: 1200px;
+   
+}
+.banner h2, h4{
+   margin: 15px;
+}
+
+/* products section style */
+.prod-title{
+   margin: 100px auto 40px auto;
+}
+.prod-imgs{
+   display: flex;
+   justify-content: center;
+   gap: 35px;
+   flex-wrap: wrap;
+   width: 1000px;
+   margin: 0 auto 60px;
+}
+.products img{
+   height: 200px;
+   width: 300px;
+}
+.prod-imgs h4{
+   margin: 10px;
+}
+
+/* locations section style */
+.locations{
+   height: 550px;
+   width: 1200px;
+   background-image: url(resources/img-locations-background.webp);
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+.locations h2{
+   margin: 15px;
+}
+.location-container{
+   display: flex;
+   margin: 0 auto;
+   gap: 40px;
+}
+.location-container div{
+   width: 300px;
+   height: auto;
+   background-color: black;
+   line-height: 70px;
+   opacity: 1;
+}
+.locations h3 {
+   margin: 20px auto auto auto;
+}
+.locations p {
+   margin: 0;
+}
+
+/* footer styles */
+/* contacts section style */
+.contacts{
+   height: 200px;
+}
+.contacts h5{
+   line-height: 50px;
+}
+.copyright{
+   text-align: left;
+   margin-left: 20px;
+}
